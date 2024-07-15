@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #00b894;
+}
+
+.Innercontainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  flex-grow: 1;
+  padding: 0 20px;
+}
+
+.heading {
+  font-size: 28px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.list {
+  font-size: 20px;
+  list-style-type: disc;
+  padding-left: 32px;
+}
+
+.paragraph {
+  font-size: 20px;
+  margin-bottom: 20px;
+}

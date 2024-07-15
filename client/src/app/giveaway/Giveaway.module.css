@@ -1,0 +1,202 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #00b894;
+}
+
+.Innercontainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  flex-grow: 1;
+  padding: 0 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content {
+  background-color: #009376;
+  width: 540px;
+  margin: 0 auto;
+  padding: 0 40px 30px 40px;
+  box-shadow: 0 0 4px #00372c;
+}
+
+.heading {
+  font-size: 64px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.timer {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.timebox {
+  width: 56px;
+  height: 56px;
+  background-color: #000;
+  padding-top: 4px;
+  border-radius: 9px;
+}
+
+.time {
+  font-size: 24px;
+  margin: 0 5px;
+}
+
+.label {
+  font-size: 12px;
+  margin: 0 5px;
+}
+
+.requirements {
+  text-align: center;
+}
+.reqHeading {
+  margin-bottom: 16px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.link {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.linkTxt {
+  font-size: 16px;
+}
+
+.linkBtn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 9px;
+  background-color: #e67e22;
+  cursor: pointer;
+}
+
+.linkBtn:hover {
+  background-color: #a15818;
+}
+
+.linkBtnAtv {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 9px;
+  background-color: green;
+  cursor: pointer;
+}
+
+.requirements ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 56px;
+}
+
+.Input {
+  width: 420px;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 9px 0 0 9px;
+}
+
+.claimBtn {
+  border-radius: 0 9px 9px 0;
+  font-size: 16px;
+  padding: 12px;
+  border: none;
+  background-color: #e67e22;
+  font-weight: bold;
+  cursor: pointer;
+}
+.claimBtn:hover {
+  background-color: #a15818;
+}
+
+.inactivebtn {
+  border: none;
+  border-radius: 9px;
+  width: 450px;
+  margin-top: 56px;
+  font-size: 18px;
+  padding: 12px 24px;
+  background-color: #888;
+  color: #aaa;
+  cursor: text;
+}
+
+.activebtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: none;
+  border-radius: 9px;
+  width: 450px;
+  margin-top: 56px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 24px;
+  background-color: #e67e22;
+  color: #fff;
+  cursor: text;
+}
+
+.msgScs {
+  color: #ffa500;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.msgFail {
+  color: #ff8080;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  display: inline-block;
+  border: 4px solid #aaa;
+  border-left-color: #fff;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 1s linear infinite;
+}
